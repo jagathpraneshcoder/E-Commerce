@@ -1,3 +1,3 @@
 
-# E-Commerce Product Catalog Management CMS1
+# E-Commerce Product Catalog Management CMS
 Mtech - Team -Work

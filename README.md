@@ -87,7 +87,7 @@
 
 ### 10. POST /products
 **Description:** Create a new product.
-**Headers:** Authorization: Bearer {token}
+**Headers:** Authorization: Bearer {token}.
 **Response:** The created product.
 
 ### 11. PUT /products/:id

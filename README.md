@@ -1,10 +1,4 @@
 # E-Commerce Product Catalog Management CMS
-Sure! I'll organize all the API endpoints you just gave into a **professional and clean README API Reference section**, ready for your **E-Commerce Product Catalog Management CMS**.  
-Here’s how you can put it into your `README.md` under the `## 📚 API Reference` section:
-
----
-
-# 📚 API Reference
 
 ## 🛒 User Authentication Module
 
@@ -33,18 +27,6 @@ Here’s how you can put it into your `README.md` under the `## 📚 API Referen
 
 - **POST `/products`** *(Admin Only)*  
   Create a new product.  
-  **Request Body Example:**
-  ```json
-  {
-    "name": "Product Name",
-    "description": "Product Description",
-    "price": 199.99,
-    "categoryId": "categoryId",
-    "tags": ["tag1", "tag2"],
-    "stock": 100,
-    "imageUrls": ["url1", "url2"]
-  }
-  ```
   **Response:** Created product details.
 
 - **GET `/products`**  
@@ -105,23 +87,6 @@ Here’s how you can put it into your `README.md` under the `## 📚 API Referen
 
 ---
 
-## ⭐ Product Rating & Review Module
-
-- **POST `/products/:id/reviews`**  
-  Submit a review and rating for a product.  
-  **Request Body:** `rating (1-5)`, `comment`  
-  **Response:** Success message.
-
-- **GET `/products/:id/reviews`**  
-  Fetch all reviews and ratings for a product.  
-  **Response:** List of reviews.
-
-- **DELETE `/reviews/:reviewId`**  
-  Delete a review (Admin or Review Owner).  
-  **Response:** Success message.
-
----
-
 ## 🔍 Search & SEO
 
 - **GET `/search/products`**  
@@ -130,49 +95,3 @@ Here’s how you can put it into your `README.md` under the `## 📚 API Referen
   **Response:** Paginated, filtered products list.
 
 ---
-
-## 🛒 (Optional) Cart Management Module
-
-- **POST `/cart/add`**  
-  Add a product to user's cart.  
-  **Request Body:** `productId`, `quantity`  
-  **Response:** Updated cart items.
-
-- **GET `/cart`**  
-  Fetch current user's cart items.  
-  **Response:** List of cart products.
-
-- **DELETE `/cart/remove/:productId`**  
-  Remove a product from cart.  
-  **Response:** Updated cart.
-
----
-
-## 📦 (Optional) Order Management Module
-
-- **POST `/orders`**  
-  Place an order with cart items.  
-  **Request Body:** `shippingAddress`, `paymentInfo`, `cartItems`  
-  **Response:** Order confirmation.
-
-- **GET `/orders`**  
-  Fetch user’s past orders. (Admin can fetch all orders.)  
-  **Response:** List of orders.
-
----
-
-# ✅ This section can directly fit into your README under `API Reference`.
-
----
-
-Would you also like me to help create a **full README file** including this, with:
-- Project Title
-- Overview
-- Features
-- Tech Stack
-- Setup Instructions
-- API Reference (this part)
-- Contribution & License?
-
-👉 I can compile everything nicely if you want it ready-to-upload on GitHub! 🚀  
-Want me to do that too?

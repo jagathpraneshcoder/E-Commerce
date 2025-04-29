@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jagathpraneshcoder/E-Commerce#readme",
   "dependencies": {
-    "e-commerce": "file:"
+    "e-commerce": "file:",
+    "mongoose": "^8.14.0"
   }
 }
